@@ -1,0 +1,23 @@
+{
+  "name": "InteliCards - Design your Future",
+  "short_name": "InteliCards",
+  "theme_color": "#74c4d4",
+  "background_color": "#74c4d4",
+  "display": "standalone",
+  "Scope": "/",
+  "description": "Design the Future!",
+  "prefer_related_applications": false,
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/ikcons/icon-(192x192).png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/ikcons/icon-(512x512).png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

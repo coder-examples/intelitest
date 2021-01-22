@@ -1,0 +1,118 @@
+button.theme, a.theme {
+  background: var(--theme-color)!important;
+  margin-left: 0px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 99px
+}
+
+button.theme:hover, a.theme:hover {
+  background: black!important;
+  margin-left: 0px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 99px
+}
+
+@media only screen and (max-width: 450px) {
+  .big-set {
+    display: none!important;
+  }
+  .medium-set {
+    display: none!important;
+  }
+  .small-set {
+    display: inline-block!important;
+  }
+}
+
+@media only screen and (max-width: 490px) and (min-width: 450px) {
+  .big-set {
+    display: none!important;
+  }
+  .medium-set {
+    display: inline-block!important;
+  }
+  .small-set {
+    display: none!important;
+  }
+}
+
+@media only screen and (min-width: 491px) {
+  .big-set {
+    display: inline-block!important;
+  }
+  .medium-set {
+    display: none!important;
+  }
+  .small-set {
+    display: none!important;
+  }
+}
+
+.theme-minimal-teal {
+  --theme-color: teal;
+  padding: 0px!important;
+  --text-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(22, 22, 22);
+  }
+  
+  a:hover {
+  text-decoration: none;
+  color: #000;
+  }
+
+.theme-minimal {
+  --theme-color: mediumpurple;
+  padding: 0px!important
+}
+
+.theme-minimal-orange {
+  --theme-color: orange;
+  padding: 0px!important
+}
+
+.theme-minimal-skyblue {
+  --theme-color: dodgerblue;
+  padding: 0px!important
+}
+
+pattern {
+  fill: var(--theme-color);
+}
+
+.body-2 {
+  background-color: var(--theme-color);
+}
+
+.main-card > img {
+  background-color: white;
+  width: 100px;
+  height: auto;
+  border: 2.5px solid #8f8f8f;
+  border-radius: 50%;
+  clip: 88px;
+}
+
+button.bg-theme {
+  border: none;
+  background-color: var(--theme-color);
+}
+
+.bg-theme {
+  background-color: var(--theme-color);
+}
+
+.navigation {
+  padding: 5px;
+}
+
+.title {
+  text-align: left;
+  margin-left: 15px;
+  padding-top: 15px;
+}
