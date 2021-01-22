@@ -60,13 +60,15 @@ class App extends Component {
 
     render() {
         return this.state.cards.map((card, i) => {
-            return (
-                <div>
-                    {
-                        this.renderSwitch(card.theme, card)
-                    }
-                </div>
-            )
+            if(window.location.pathname === `${card.id}-${card.firstname}-${card.lastname}`) {
+                return (
+                    <div>
+                        {
+                            this.renderSwitch(card.theme, card)
+                        }
+                    </div>
+                )
+            }
         })
     }
 }
