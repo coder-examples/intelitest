@@ -60,7 +60,7 @@ class App extends Component {
 
     render() {
         return this.state.cards.map((card, i) => {
-            if(window.location.pathname === `/${card.firstname}-${card.lastname}`) {
+            if(window.location.pathname === `/${card.firstname}-${card.lastname}` || window.location.pathname === `/${card.firstname}-${card.lastname}`) {
                 return (
                     <div>
                         {
